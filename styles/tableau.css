@@ -1,0 +1,18 @@
+/* CSS générale par Maxime Moskalyk */
+/* Tableaux par Théo Michellon */
+/* modifie le premier de la ligne */
+td:first-child {
+    font-weight: bold;
+
+    border-right: 5px solid;
+}
+
+td {
+    border-bottom: 5px solid;
+    padding: 50px;
+}
+
+/* modifie l'élément de la derniere colonne*/
+tr:last-child td {
+    border-bottom: none;
+}

@@ -1,0 +1,65 @@
+/* CSS générale par Maxime Moskalyk */
+/* barre de navigation par Macro Frendo */
+.barre_nav {
+    font-size: 25px;
+    font-weight: bolder;
+
+    text-align: center;
+
+    border-top: solid 5px;
+    border-bottom: solid 5px;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.5);
+
+    background-color: #FFFFFF;
+}
+
+/* la liste */
+.barre_nav ul {
+    padding-left: 0;
+}
+
+/* correspond aux différents catégories de la barre de navigation */
+.barre_nav li {
+    display: inline;
+}
+
+/* les liens hypertextes de la barre */
+.barre_nav li > a, span{
+    display: inline-block;
+    padding: 8px 100px;
+
+    color: black;
+    text-decoration: none;
+}
+
+/* le dropdown de la liste d'éléments */
+.barre_nav li.dropdown {
+    display: inline-block;
+}
+
+/* le contenu du dropdown */
+.contenu_dropdown {
+    display: none;
+    position: absolute;
+
+    max-width: 300px;
+    box-shadow: 0 8px 30px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    background-color: white;
+}
+
+/* les liens hypertextes du dropdown */
+.contenu_dropdown a {
+    width: 300px;
+    padding: 10px 0 !important;
+
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 8px 100px;
+}
+
+/* lorsque que la souris passe au dessus d'un dropdown */
+.dropdown:hover .contenu_dropdown {
+    display: block;
+}

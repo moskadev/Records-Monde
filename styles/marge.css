@@ -1,0 +1,46 @@
+/* CSS générale par Maxime Moskalyk */
+/* Marge par Rémi Lloria
+/* Feuille de style pour la barre à gauche
+ * regroupant tout les records des différents
+ * catégories disponibles
+ */
+.marge_categorie {
+    border-top: 5px solid;
+    border-left: 5px solid;
+
+    padding: 20px;
+    width: 230px;
+    overflow-y: auto;
+    opacity: 0;  /* petit hack (modifié par le le script) */
+    max-height: 0; /* petit hack (modifié par le le script) */
+
+    position: relative;
+    display: block;
+    float: right;
+
+    background-color: white;
+    color: black;
+}
+
+/* modifie les liens hypertextes */
+.marge_categorie a {
+    text-decoration: none;
+    color: black;
+}
+
+.marge_categorie a:hover {
+    font-weight: bold;
+}
+
+/* modifie l'élément de la liste */
+.marge_categorie li {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+/* modifie la liste */
+.marge_categorie ul {
+    font-size: 25px;
+    text-align: left;
+    font-weight: bold;
+}

@@ -1,0 +1,60 @@
+/* CSS générale et formulaire par Maxime Moskalyk */
+/* change l'apparence extérieur de l'input */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 30px;
+    border: 3px solid;
+    border-radius: 10px;
+
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+::placeholder, select:invalid, select:focus {
+    color: #bebebe;
+
+    font-weight: bold;
+    font-size: 15px;
+}
+
+textarea {
+    height: 200px;
+}
+
+select {
+    height: 50px;
+}
+
+/* change l'apparence intérieurs des inputs */
+input[type=submit] {
+    background-color: #62b42a;
+    color: white;
+
+    padding: 30px 100px;
+    border-radius: 10px;
+
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* le bouton d'envoie change de couleur lorsque la souris passe dessus */
+input[type=submit]:hover {
+    background-color: #348506;
+}
+
+/* l'ensemble du formulaire */
+form {
+    border-radius: 30px;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.5);
+    border: 5px solid;
+
+    background-color: white;
+    
+    padding: 60px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    font-weight: bolder;
+    font-size: 20px;
+}
